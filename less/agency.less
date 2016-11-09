@@ -34,7 +34,7 @@ a.active {
 }
 
 a {
-    color: @theme-primary;
+    color: darken(@theme-primary, 30%);
 }
 
 a:hover,
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
     border-color: transparent;
     .navbar-brand {
         color: @theme-primary;
-        .script-font;
+        .cursive-font;
         &:hover,
         &:focus,
         &:active,
@@ -167,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    background-image: url('../img/header-bg.jpg');
+    background-image: url('../img/Outdoors.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -735,4 +735,28 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: @theme-primary;
+}
+
+.techIcon {
+    height: 100px
+}
+
+.techIcons h5 {
+    text-align: center;
+}
+
+.techIcons img {
+    display: block;
+    margin: 0 auto;
+}
+
+.techFirstRow img {
+    margin-top: 25%;
+}
+
+#dotnetIcon {
+    display: inline-block;
+    margin: 40px auto 0;
+    height: 60px;
+    width: 100px;
 }
